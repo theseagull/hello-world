@@ -24,6 +24,14 @@
         <artifactId>jetty-maven-plugin</artifactId>
       </plugin>
     </plugins>
+    <resources>
+      <resource>
+        <directory>srv/main/resources</directory>
+        <includes>
+          <include>*.xml</include>
+        </includes>
+      </resource>
+    </resources>
   </build>
 
   <dependencies>
