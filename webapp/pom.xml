@@ -26,7 +26,7 @@
     </plugins>
     <resources>
       <resource>
-        <directory>srv/main/resources</directory>
+        <directory>src/main/resources</directory>
         <includes>
           <include>*.xml</include>
         </includes>
